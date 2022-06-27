@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/relationship-journal-project/precache-manifest.1e664a8ba1accf3949b7cadeadba9797.js"
+  "/relationship-journal/precache-manifest.5705b70b1f2b3648afe2218f275a9d8d.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/relationship-journal-project/index.html", {
+workbox.routing.registerNavigationRoute("/relationship-journal/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
