@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/relationship-journal/precache-manifest.5705b70b1f2b3648afe2218f275a9d8d.js"
+  "/relationship-journal/precache-manifest.36fb6d4cbe4589969dfa9aa3c8530c13.js"
 );
 
 workbox.clientsClaim();
